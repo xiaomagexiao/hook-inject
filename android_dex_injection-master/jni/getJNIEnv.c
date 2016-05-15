@@ -70,10 +70,10 @@ int so_entry() {
 
     /* set dex dir */
     LOGD("step1: setting dex dir and opt dir...");
-    dexPath = "/data/local/tmp/classes.dex";
+    dexPath = "/data/local/tmp/dex-target-model.apk";
     dexOptDir = "/data/data/cn.com.whatyfjsd.mooc/cache";
-    className = "com.codeboy.qianghongbao.Util";
-    methodName = "say"; 
+    className = "com.example.dex.ui.Say";
+    methodName = "show"; 
     LOGD("step1 finished!\n");
 
 
